@@ -23,7 +23,10 @@ class TampilData extends StatelessWidget {
         margin: const EdgeInsets.all(10),
         child: Column(
           children: [
-            Text("Nama saya $nama, NIM $nim, dan umur saya adalah $umur tahun"),
+            Text(
+              "Nama saya $nama, NIM $nim, dan umur saya adalah $umur tahun",
+              style: TextStyle(color: Colors.green),
+            ),
           ],
         ),
       ),

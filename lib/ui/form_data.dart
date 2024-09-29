@@ -24,8 +24,17 @@ class FormDataState extends State<FormData> {
         child: Column(
           children: [
             _textboxNama(),
+            SizedBox(
+              height: 10,
+            ),
             _textboxNIM(),
+            SizedBox(
+              height: 10,
+            ),
             _textboxTahun(),
+            SizedBox(
+              height: 10,
+            ),
             _tombolSimpan()
           ],
         ),
@@ -35,21 +44,24 @@ class FormDataState extends State<FormData> {
 
   _textboxNama() {
     return TextField(
-      decoration: const InputDecoration(labelText: "Nama"),
+      decoration: const InputDecoration(
+          labelText: "Nama", border: OutlineInputBorder()),
       controller: _namaController,
     );
   }
 
   _textboxNIM() {
     return TextField(
-      decoration: const InputDecoration(labelText: "NIM"),
+      decoration:
+          const InputDecoration(labelText: "NIM", border: OutlineInputBorder()),
       controller: _nimController,
     );
   }
 
   _textboxTahun() {
     return TextField(
-      decoration: const InputDecoration(labelText: "Tahun Lahir"),
+      decoration: const InputDecoration(
+          labelText: "Tahun Lahir", border: OutlineInputBorder()),
       controller: _tahunController,
     );
   }
