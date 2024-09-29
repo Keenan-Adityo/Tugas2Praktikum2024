@@ -19,5 +19,5 @@ Shift Baru: F
 
 ## Screenshot
 Contoh :
-![Lampiran Form](form.png)
-![Lampiran Hasil](hasil.png)
+![Lampiran Form](form1.png)
+![Lampiran Hasil](hasil1.png)
